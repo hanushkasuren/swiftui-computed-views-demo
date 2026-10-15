@@ -21,23 +21,9 @@ One profile screen with a name field and a notifications toggle, built four diff
 
 ## Run it
 
-This project is set up for XcodeGen, a tool that turns a plain YAML file into a real Xcode project.
-
-1. Install XcodeGen once, with Homebrew.
-
-   brew install xcodegen
-
-2. From this folder, generate the project.
-
-   xcodegen generate
-
-3. Open it.
-
-   open ComputedViewsDemo.xcodeproj
-
-4. Pick an iPhone simulator and run. Run the tests with Cmd+U.
-
-If you would rather not install XcodeGen, create a new Xcode project named ComputedViewsDemo, iOS App, SwiftUI, Swift, with Swift Testing as the testing system. Delete its generated ContentView.swift, ComputedViewsDemoApp.swift and test file, then add Sources/ComputedViewsDemo to the app target and Tests/ComputedViewsDemoTests to the test target. Set the deployment target to iOS 17.
+1. Clone the repo and open `ComputedViewsDemo.xcodeproj`.
+2. Pick an iPhone simulator and run with Cmd+R.
+3. Run the tests with Cmd+U.
 
 ## What to try
 
